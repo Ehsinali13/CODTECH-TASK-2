@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Organizer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Recipe Organizer</h1>
+        <div class="recipe-form">
+            <input type="text" id="recipe-name" placeholder="Recipe Name" />
+            <textarea id="ingredients" placeholder="Ingredients (comma separated)"></textarea>
+            <textarea id="instructions" placeholder="Instructions"></textarea>
+            <button id="add-recipe-btn">Add Recipe</button>
+        </div>
+
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search Recipes" />
+        </div>
+
+        <div id="recipe-list" class="recipe-list">
+            <!-- Recipe cards will appear here -->
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
